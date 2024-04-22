@@ -8,4 +8,4 @@ async function updateVersion() {
 
 window.addEventListener("load", function(){ 
      updateVersion()
-    });
+});
