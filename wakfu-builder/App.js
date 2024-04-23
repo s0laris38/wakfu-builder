@@ -1,17 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Button } from 'react-native-paper';
+//import jsonVersion from './db/files/version.json';
 
 export default function App() {
 
   function updateDB() {
-    let version = JSON.parse('db/files/version.json').version
-    console.log(version)
-  } 
+   /* const shell = require('shelljs')
+    shell.echo('hi')*/
+  };
 
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Button onPress={() => updateDB()}>Mettre à jour</Button>
       <StatusBar style="auto" />
     </View>
   );
