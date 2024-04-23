@@ -16,8 +16,7 @@
     "react-dom": "18.2.0",
     "react-native": "0.73.6",
     "react-native-paper": "^5.12.3",
-    "react-native-web": "~0.19.6",
-    "shelljs": "^0.8.5"
+    "react-native-web": "~0.19.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
